@@ -13,6 +13,9 @@
 		3CB5175E243E63150084A0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5175C243E63150084A0F7 /* Main.storyboard */; };
 		3CB51760243E63160084A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5175F243E63160084A0F7 /* Assets.xcassets */; };
 		3CB51763243E63160084A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB51761243E63160084A0F7 /* LaunchScreen.storyboard */; };
+		3CB5176B243E64470084A0F7 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5176A243E64470084A0F7 /* WordsTableViewController.swift */; };
+		3CB5176D243E64670084A0F7 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5176C243E64670084A0F7 /* DefinitionViewController.swift */; };
+		3CB5176F243E649E0084A0F7 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5176E243E649E0084A0F7 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3CB5175F243E63160084A0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB51762243E63160084A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB51764243E63160084A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB5176A243E64470084A0F7 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		3CB5176C243E64670084A0F7 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		3CB5176E243E649E0084A0F7 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				3CB5175F243E63160084A0F7 /* Assets.xcassets */,
 				3CB51761243E63160084A0F7 /* LaunchScreen.storyboard */,
 				3CB51764243E63160084A0F7 /* Info.plist */,
+				3CB5176A243E64470084A0F7 /* WordsTableViewController.swift */,
+				3CB5176C243E64670084A0F7 /* DefinitionViewController.swift */,
+				3CB5176E243E649E0084A0F7 /* VocabularyWord.swift */,
 			);
 			path = "Swift Vocabulary";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				3CB5175B243E63150084A0F7 /* ViewController.swift in Sources */,
 				3CB51757243E63150084A0F7 /* AppDelegate.swift in Sources */,
 				3CB51759243E63150084A0F7 /* SceneDelegate.swift in Sources */,
+				3CB5176F243E649E0084A0F7 /* VocabularyWord.swift in Sources */,
+				3CB5176B243E64470084A0F7 /* WordsTableViewController.swift in Sources */,
+				3CB5176D243E64670084A0F7 /* DefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
