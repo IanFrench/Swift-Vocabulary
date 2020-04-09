@@ -41,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C786ED4243E9C0E00B0573E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5176E243E649E0084A0F7 /* VocabularyWord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C786ED5243E9C3800B0573E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5176A243E64470084A0F7 /* WordsTableViewController.swift */,
+				3CB5176C243E64670084A0F7 /* DefinitionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		3CB5174A243E63150084A0F7 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +77,14 @@
 		3CB51755243E63150084A0F7 /* Swift Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
+				3C786ED5243E9C3800B0573E /* View Controllers */,
+				3C786ED4243E9C0E00B0573E /* Models */,
 				3CB51756243E63150084A0F7 /* AppDelegate.swift */,
 				3CB51758243E63150084A0F7 /* SceneDelegate.swift */,
 				3CB5175C243E63150084A0F7 /* Main.storyboard */,
 				3CB5175F243E63160084A0F7 /* Assets.xcassets */,
 				3CB51761243E63160084A0F7 /* LaunchScreen.storyboard */,
 				3CB51764243E63160084A0F7 /* Info.plist */,
-				3CB5176A243E64470084A0F7 /* WordsTableViewController.swift */,
-				3CB5176C243E64670084A0F7 /* DefinitionViewController.swift */,
-				3CB5176E243E649E0084A0F7 /* VocabularyWord.swift */,
 			);
 			path = "Swift Vocabulary";
 			sourceTree = "<group>";
