@@ -107,7 +107,7 @@ class WordsTableViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
-        if segue.identifier == "ShowDefinitionSeque" {
+        if segue.identifier == "ShowDefinitionSegue" {
         
             guard let definitionVC = segue.destination as? DefinitionViewController else {
                 return}
@@ -116,8 +116,8 @@ class WordsTableViewController: UITableViewController {
               guard let indexPath = tableView.indexPathForSelectedRow else {
                 return}
         
-        let vWord = vocabWords[indexPath.row]
-        definitionVC.vocabWord = vWord
+        let theWord = vocabWords[indexPath.row]
+        definitionVC.vocabWord = theWord
         }
        
     }

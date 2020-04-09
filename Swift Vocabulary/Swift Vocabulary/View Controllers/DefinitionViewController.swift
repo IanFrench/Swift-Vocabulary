@@ -28,8 +28,10 @@ class DefinitionViewController: UIViewController {
     
     
     func updateViews() {
-        if let vWord = vocabWord {
-           DefinitionLabel.text = vWord.word
+        guard let vWord = vocabWord  else {
+            return}
+          
+            DefinitionLabel.text = vWord.word
            DefinitionTextView.text = vWord.definition
             
         }
@@ -45,4 +47,4 @@ class DefinitionViewController: UIViewController {
     }
     */
 
-}
+
