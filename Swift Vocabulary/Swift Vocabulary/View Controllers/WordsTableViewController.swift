@@ -59,8 +59,8 @@ class WordsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            let cell = tableView.dequeueReusableCell(withIdentifier: "WordCell", for: indexPath)
            let defined = vocabWords[indexPath.row]
-           cell.textLabel?.text = definition.word
-           cell.textView? = defined.definition
+           cell.textLabel?.text = defined.word
+         
         
         return cell
     }
@@ -109,13 +109,15 @@ class WordsTableViewController: UITableViewController {
        
         if segue.identifier == "ShowDefinitionSeque" {
         
-        guard let definitionVC = segue.destination as? DefinitionViewController
-              let indexPath = tableView.indexPathForSelectedRow
-              else {
-            return}
+            guard let definitionVC = segue.destination as? DefinitionViewController else {
+                return}
+          
+    
+              guard let indexPath = tableView.indexPathForSelectedRow else {
+                return}
         
-        let VWord = vocabWords[indexPath.row]
-        definitionVC.vocabWord = VWord
+        let vWord = vocabWords[indexPath.row]
+        definitionVC.vocabWord = vWord
         }
        
     }
